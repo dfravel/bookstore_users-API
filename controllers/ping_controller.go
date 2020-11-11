@@ -5,6 +5,6 @@ import {
 	"net/http"
 }
 
-func ping(c *gin.Context) {
-	c.String(http.StatusOK, format;"pong")
+func Ping(c *gin.Context) {
+	c.String(http.StatusOK, format:"pong")
 }
