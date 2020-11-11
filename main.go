@@ -1,9 +1,7 @@
 package main
 
-import (
-	"github.com/dfravel/bookstore_users-API/application"
-)
+import "./app"
 
 func main() {
-	application.StartApplication()
+	app.StartApplication()
 }
